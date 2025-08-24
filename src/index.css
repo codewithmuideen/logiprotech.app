@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.PhoneInputInput {
+  flex: 1;
+  min-width: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 0.75rem; 
+}
+
+.PhoneInputCountry {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 1023px) {
+ 
+  img[alt="Global Career Advisors Logo"] {
+    height: 2.75rem; 
+  }
+}
